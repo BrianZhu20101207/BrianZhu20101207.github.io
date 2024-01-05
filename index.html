@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>端到端加密聊天室</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="server.js" defer></script>
+  <script src="frontend.js" defer></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Chat</h1>
+    <div class="message-box">
+      <!-- 显示聊天消息的区域 -->
+    </div>
+    <div class="input-box">
+      <input type="text" id="message-input" placeholder="输入消息..." />
+      <input type="submit" value="发送" />
+    </div>
+  </div>
+</body>
+</html>
